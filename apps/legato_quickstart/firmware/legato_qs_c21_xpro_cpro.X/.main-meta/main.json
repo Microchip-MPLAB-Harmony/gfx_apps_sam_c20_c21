@@ -1,0 +1,79 @@
+{
+	"metaDataVersion": "1.0.0",
+	"category": "com.microchip.ide.project",
+	"content": {
+		"metaDataVersion": "1.1.0",
+		"name": "com.microchip.mcu32.mplabx.project.gfx_apps_sam_c20_c21_legato_quickstart_legato_qs_c21_xpro_cpro",
+		"version": "3.9.0",
+		"displayName": "Legato Quickstart Example for SAM C20/C21 Family",
+		"projectName": "legato_qs_c21_xpro_cpro",
+		"shortDescription": "This demonstration provides a touch-enabled starting point for the legato graphics library.",
+		"ide": {
+			"name": "MPLABX",
+			"semverRange": ">=5.45.0"
+		},
+		"compiler": [
+			{
+				"name": "XC32",
+				"semverRange": ">=2.50.0"
+			}
+		],
+		"dfp": {
+			"name": "SAMC21_DFP",
+			"semverRange": "^3.4.78"
+		},
+		"configurator": {
+			"name": "MHC",
+			"semverRange": ">=3.6.2"
+		},
+		"device": {
+			"metaDataVersion": "1.0.0",
+			"category": "com.microchip.portal.contentRef",
+			"content": {
+				"metaDataVersion": "1.0.0",
+				"category": "com.microchip.device",
+				"name": "ATSAMC21J18A",
+				"versionRange": "*"
+			}
+		},
+		"author": "Microchip",
+		"subcategories": [
+			[
+				"Development Kit", "SAM C21N Xplained Pro Evaluation Kit"
+			],
+			[
+				"Harmony", "Middleware", "Graphics", "LEGATO_QUICKSTART"
+			],
+			[
+				"Middleware", "Graphics", "LEGATO_QUICKSTART"
+			]
+		],
+		"peripherals": [
+			"GPU"
+		],
+		"keywords": [
+			"MHC",
+			"Harmony",
+			"Middleware",
+			"Graphics",
+			"ATSAMC21J18A",
+			"SAM C20/C21 Family",
+			"GPU",
+			"External Bus Interface",
+			"External Memory",
+			"Memory",
+			"Graphics"
+		],
+		"additionalData": {
+			"longDescription": {
+				"metaDataVersion": "1.0.0",
+				"category": "com.microchip.portal.fileRef",
+				"content": {
+					"metaDataVersion": "1.0.0",
+					"fileName": "./../../readme.md",
+					"mimeType": "text/markdown"
+				}
+			}
+		}
+	}
+}
