@@ -150,6 +150,8 @@ children:
       children:
       - type: Dynamic
         attributes: {id: le_gfx_driver_external, value: '72'}
+      - type: User
+        attributes: {value: '40'}
   - type: Integer
     attributes: {id: Command3ParmsCount}
     children:
@@ -234,6 +236,8 @@ children:
       children:
       - type: Dynamic
         attributes: {id: le_gfx_driver_external, value: '480'}
+      - type: User
+        attributes: {value: '320'}
   - type: Combo
     attributes: {id: DisplayInterfaceType}
     children:
@@ -248,6 +252,8 @@ children:
       children:
       - type: Dynamic
         attributes: {id: le_gfx_driver_external, value: '320'}
+      - type: User
+        attributes: {value: '480'}
   - type: Integer
     attributes: {id: InitCommandsCount}
     children:
@@ -369,4 +375,4 @@ children:
         children:
         - {type: Value, value: gfx_driver}
 - type: ElementPosition
-  attributes: {x: '523', y: '292', id: le_gfx_driver_external}
+  attributes: {x: '550', y: '290', id: le_gfx_driver_external}
